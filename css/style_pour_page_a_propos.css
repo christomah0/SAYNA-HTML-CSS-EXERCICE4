@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url("../font/Updated.otf");
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+/* ************************** */
+
+/* Début du style pour header */
+
+header{
+    position: static;
+    top: 0%;
+    width: 100%;
+}
+
+nav{
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: auto;
+    box-shadow: 0 1px 2px #000;
+}
+
+.menu{
+    width: 50%;
+    margin: 1.5rem 0;
+}
+
+.icon{
+    width: 50%;
+    margin: 0.8rem 0 0.8rem 4.7rem;
+}
+
+.icon > a > img{
+    padding: 0 1rem;
+}
+
+.icon > a > img:nth-child(2){
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+    padding: 2rem;
+    font-size: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+menu{
+    width: 100%;
+}
+
+/* Fin du style pour header */
+
+/* ************************** */
+
+/* Début du style pour main */
+
+.menu, .container{
+    width: 100%;
+    color: #ffffff;
+}
+
+.part_one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F1C530;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 6em;
+    font-family: 'Regular';
+    font-weight: lighter;
+}
+
+.part_one > div:nth-child(1){
+    padding: 12rem 0 0 9.5rem;
+    width: 65;
+    margin: 0 auto;
+}
+
+.part_one > div:nth-child(1) > span{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.part_one > div:nth-child(2){
+    width: 41%;
+}
+
+.part_one > div:nth-child(2) > img{
+    width: 100%;
+    transform: rotateY(180deg);
+}
+
+.part_two{
+    width: 100%;
+    background-color: #B11313;
+}
+
+.part_two > div:nth-child(1){
+    padding: 5rem 0 3rem 0;
+    margin: 0 auto;
+    width: 74%;
+}
+
+.part_two > div:nth-child(1) > h2{
+    font-family: 'Regular';
+    font-size: 37px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.part_two > div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.formular{
+    width: 35%;
+    margin-bottom: 12rem;
+}
+
+input{
+    padding: 0.5rem 0;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    margin: 1rem auto;
+    width: 100%;
+    color: #ffffff;
+}
+
+input[placeholder]{
+    padding-left: 1.5rem;
+    font-size: 15px;
+}
+
+textarea{
+    margin-top: 0.5rem;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 15px;
+    width: 100%;
+    height: 25vh;
+}
+
+textarea[placeholder]{
+    color: #ffffff;
+    padding-left: 1.5rem;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#btn{
+    margin: 1rem 8.2rem;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 1rem 3.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#btn:hover{
+    background-color: #B11313;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 0.7rem 0;
+}
+
+.part_three{
+    width: 100%;
+    background-color: #114C92;
+}
+
+.part_three_child_one{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.part_three_child_one > h2{
+    text-transform: uppercase;
+    font-family: 'Regular';
+    font-weight: lighter;
+    font-size: 37px;
+}
+
+.part_three_child_two{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.box{
+    width: 45%;
+}
+
+#one_paragraph{
+    width: 81%;
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.link_to_social_media{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.link_to_social_media > a{
+    border: 1px solid #ffffff;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    margin: 3rem auto;
+    font-weight: bold;
+}
+
+.link_to_social_media > a:hover{
+    background-color: #ffffff;
+    color: #114C92;
+}
+
+/* Fin du style pour main */
+
+/* ************************* */
+
+/* Début du style pour footer */
+
+footer{
+    padding: 3rem 0;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.footer_part_one{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+#fimg, #timg{
+    padding: 0 0.7rem;
+}
+
+#simg{
+    padding-bottom: 1rem;
+}
+
+select{
+    border: none;
+    border-radius: 15px;
+    padding: 0.2rem 4rem 0.2rem 0.5rem;
+    background-color: #B11313;
+    color: #ffffff;
+}
+
+.footer_part_two{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin: 3rem auto;
+
+}
+
+.social_media{
+    background-color: #B11313;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
+
+.footer_part_third{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+
+/* Fin du style pour footer */

@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url("../font/Updated.otf");
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 15px;
+}
+
+/* *************************** */
+
+/* Début du style pour header */
+
+header{
+    position: static;
+    top: 0%;
+    width: 100%;
+}
+
+nav{
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: auto;
+    box-shadow: 0 1px 2px #000;
+}
+
+.menu{
+    margin: 1.5rem 0;
+}
+
+.icon{
+    margin: 0.8rem 0;
+}
+
+.icon > a > img{
+    padding: 0 1rem;
+}
+
+.icon > a > img:nth-child(2){
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+    padding: 2rem;
+    font-size: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+menu{
+    width: 100%;
+}
+
+/* Fin du style pour header */
+
+/* *************************** */
+
+/* Début du style pour main */
+
+main{
+    background-color: #B11313;
+}
+
+.container{
+    width: 100%;
+}
+
+.part_one{
+    background-image: url("../images/Illustration/img1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+.part_one_child{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 13rem;
+    width: 37%;
+}
+
+.part_one_child > span:nth-child(1) {
+    margin: 7rem 0 ;
+    font-size: 5.7em;
+    font-family: 'Regular';
+}
+
+.part_one_child > span:nth-child(2) > p{
+    padding: 2rem 0; 
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 0.5rem;
+}
+
+
+.paragraph > p:nth-child(1){
+    font-family: 'Regular';
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.paragraph > p:nth-child(2){
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.part_one_child > div:nth-child(1){
+    margin-left: 7rem;
+    width: 100%;
+}
+
+
+span{
+    color: #ffffff;
+}
+
+.part_one_child > span{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.part_one_child > span > a:nth-child(1){
+    padding: 0.7rem 2rem;
+}
+
+.part_one_child > span > a:nth-child(1):hover{
+    padding: 0.7rem 2rem;
+}
+
+.part_one_child > span > a{
+    margin-right: 1.5rem;
+    padding: 0.7rem;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+
+.part_one_child > span > a:hover{
+    background-color: #ffffff;
+    padding: 0.7rem;
+    color: #B11313;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+
+.part_two {
+    display: flex;
+    margin: 3rem auto;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    text-align: center;
+    width: 22.7%;
+    text-align: center;
+}
+
+.part_two .box p{
+    color: #ffffff;
+    margin: 3rem 0;
+    width: 100%;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.box > a{
+    margin: 2rem auto;
+    padding: 1rem;
+    color: #B11313;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.part_three{
+    display: flex;
+    justify-content: space-between;
+    background-color: #114C92;
+}
+
+.part_three > div:nth-child(2){
+    color: #ffffff;
+    text-align: end;
+    padding: 4rem 10rem;
+}
+
+.part_three > div:nth-child(2) > p:nth-child(1){
+    font-family: 'Regular';
+    font-size: 3em;
+    font-style: oblique;
+}
+
+.part_three > div:nth-child(2)>p:nth-child(2) {
+    font-size: 13px;
+}
+
+input{
+    border: 2px solid #0000;
+    margin: 0.3rem auto;
+    padding: 0.5rem 0;
+    border-radius: 15px;
+    width: 90%;
+}
+
+input:nth-child(1){
+    margin-top: 1.5rem;
+}
+
+input[placeholder] {
+    padding-left: 1rem;
+}
+
+button{
+    font-weight: bold;
+    padding: 0.8rem 4rem;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    margin: 2rem 7rem 0 0;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #000;
+    cursor: pointer;
+}
+
+.part_four{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.part_four > div:nth-child(1) > p:nth-child(1){
+    font-family: 'Regular';
+    font-style: oblique;
+    font-size: 1.5em;
+    word-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.part_four > div:nth-child(1) > p:nth-child(2){
+    font-size: 13px;
+}
+
+.part_four > div:nth-child(1) > form > button{
+    margin: 4rem 3.5rem;
+    background-color: #ffffff;
+    color: #B11313;
+}
+
+.part_four div:nth-child(1) > form > button:hover{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.part_four > div:nth-child(1) > form{
+    padding: 3rem 0;
+}
+
+.part_four > div:nth-child(1) > form > input{
+    width: 55%;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+#rule{
+    width: 5%;
+}
+
+.part_four > div:nth-child(1) > form > label{
+    font-size: 13px;
+}
+
+#underline_phrase{
+    text-decoration:underline;
+}
+
+.part_four > div:nth-child(1){
+    width: 60%;
+    padding: 5rem;
+}
+
+.part_four > div:nth-child(2){
+    background-image: url("../images/Illustration/img6.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+}
+
+/* Fin du style pour main */
+
+/* ************************* */
+
+/* Début du style pour footer */
+
+footer{
+    padding: 3rem 0;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.footer_part_one{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+#fimg, #timg{
+    padding: 0 0.7rem;
+}
+
+#simg{
+    padding-bottom: 1rem;
+}
+
+select{
+    border: none;
+    border-radius: 15px;
+    padding: 0.2rem 4rem 0.2rem 0.5rem;
+    background-color: #B11313;
+    color: #ffffff;
+}
+
+.footer_part_two{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin: 3rem auto;
+
+}
+
+.social_media{
+    background-color: #B11313;
+    border-radius:50%;
+    padding: 0.4rem;
+}
+
+.footer_part_third{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+
+/* Fin du style pour footer */
